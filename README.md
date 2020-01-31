@@ -5,3 +5,6 @@
 
 # 2. Создание и запуск файла Docker Compose
     docker-compose -f go-app-compose.yaml up -d
+
+# Источник
+https://quasar.site/tutorials/173/kak-razvernut-veb-prilozhenie-go-s-pomoshchyu-docker-i-nginx-v-ubuntu-1804
