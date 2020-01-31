@@ -1,5 +1,12 @@
 # go-docker
 
+# Остановить все Docker контейнеры.
+    docker stop $(docker ps -a -q)
+# Удалить все Docker контейнеры
+    docker rm $(docker ps -a -q)
+# Удалить все Docker images
+    docker rmi $(docker images -q)
+    
 # 1. Развертывание nginx-прокси с Let's Encrypt
     docker-compose -f nginx-proxy-compose.yaml up -d
 
